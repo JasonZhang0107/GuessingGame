@@ -57,5 +57,5 @@ public class greetUser
 				guess = input.nextInt();
 			}
 		}
-		//hello jaysun
 	}
+		//hello jaysun
