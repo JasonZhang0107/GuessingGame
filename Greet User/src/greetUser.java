@@ -59,4 +59,4 @@ public class greetUser
 		}
 	}
 }
-//ahnaf is a gender
+//ahnaf is a not my classmate
