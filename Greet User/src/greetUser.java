@@ -19,17 +19,17 @@ public class greetUser
 				
 		if(x > 18)
 		{
-			System.out.println("Wow your old");
+			System.out.println("Wow you're old");
 		}
 		else
 		{
 			if(s.equals("Sadman"))
 			{
-				System.out.println("Wow your old");
+				System.out.println("Wow you're old");
 			}
 			else
 			{
-				System.out.println("Wow your young");
+				System.out.println("Wow you're young");
 		*/
 		
 		Scanner input = new Scanner(System.in);
