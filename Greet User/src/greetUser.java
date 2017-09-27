@@ -55,8 +55,7 @@ public class greetUser
 				guess = input.nextInt();
 			}
 		}
-		
+		//hello bud
 		
 	}
-	// Hello you are my critical friendss!
 }
