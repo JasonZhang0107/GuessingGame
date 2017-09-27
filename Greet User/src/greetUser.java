@@ -58,5 +58,3 @@ public class greetUser
 			}
 		}
 	}
-}
-//ahnaf is a not my classmate
