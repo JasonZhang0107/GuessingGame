@@ -1,9 +1,9 @@
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.InputMismatchException; 
+
 public class greetUser 
 {
-	
 	public static void main(String[]args)
 	{
 		/*
@@ -58,4 +58,5 @@ public class greetUser
 			}
 		}
 	}
+}
 	//ahnaf is not listening to me so I'm annoyed
