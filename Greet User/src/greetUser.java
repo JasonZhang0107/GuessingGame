@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 import java.util.InputMismatchException; 
 public class greetUser 
 {
@@ -30,6 +31,7 @@ public class greetUser
 			{
 				System.out.println("Wow your young");
 		*/
+		
 		Scanner input = new Scanner(System.in);
 		int randomNum = (int)(Math.random()*10+1);
 		
@@ -55,8 +57,6 @@ public class greetUser
 				guess = input.nextInt();
 			}
 		}
-		
-		
 	}
-	
 }
+//ahnaf is a gender
