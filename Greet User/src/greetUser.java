@@ -56,5 +56,5 @@ public class greetUser
 				System.out.println("That is too low, try again!");
 				guess = input.nextInt();
 			}
-		}
+		}//hello jaysun
 	}
