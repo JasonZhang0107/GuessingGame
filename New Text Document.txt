@@ -1,0 +1,51 @@
+
+public class SHossainNameCase implements NameCase {
+    public static void main (String [] args)
+    {
+    	NameCase test = new SHossainNameCase();
+    	System.out.println("This is where you should test your code.");
+    	System.out.println(test.titlecase("Sadman"));
+    	System.out.println(test.swapcase("Sadman"));
+    	System.out.println(test.alternatingcase("Sadman"));
+    	
+    }
+
+    public String titlecase(String name)
+    {
+    	String firstLetter = name.substring(0,1);
+    	firstLetter = firstLetter.toUpperCase();
+    	String theRest = name.substring(1);
+    	theRest = theRest.toLowerCase();
+        return firstLetter + theRest;
+    }
+    public String swapcase(String name)
+    {
+    	String firstLetter = name.substring(0,1);
+    	firstLetter = firstLetter.toLowerCase();
+    	String theRest = name.substring(1);
+    	theRest = theRest.toUpperCase();
+        return firstLetter + theRest;
+    }
+    public String alternatingcase(String name)
+    {
+    	String firstLetter = name.substring(0,1);
+    	firstLetter = firstLetter.toLowerCase();
+    	String theRest = firstLetter;
+    	for(int i = 1; i < name.length(); i++)
+    	{
+    		String currentLetter;
+    		if(i%2 == 1)
+    		{
+    			currentLetter = name.substring(i, i+1);
+    			theRest = theRest + currentLetter.toUpperCase();
+    		}
+    		if(i%2 == 0)
+    		{
+    			currentLetter = name.substring(i, i+1);
+    			theRest = theRest + currentLetter.toLowerCase();
+    		}
+    	}
+        return theRest;
+    }
+
+}
